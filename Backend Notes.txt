@@ -1,0 +1,9 @@
+Commands in Terminal :-
+
+npm init -y
+node app.js (to run app.js file)
+npm install typescript nodemon (to install typescript nodemon)
+npm install --dev-save ts-node @types/n
+tsc -init
+npm install -g typescript (to install typescript)
+npm run dev (to run dev script(file mentioned in dev) mentioned in package.json file)
