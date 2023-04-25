@@ -53,11 +53,11 @@ app.get("/",(req,res)=>{
     res.send("Notes Api");
 })
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 //mongoose.connect("mongodb+srv://saininaveen933:naveen1234@cluster0.0gsvxzs.mongodb.net/?retryWrites=true&w=majority")//("mongodb+srv://saininaveen933:naveen1234@cluster0.0gsvxzs.mongodb.net/?retryWrites=true&w=majority")
 //.then(()=>{ //Here then( ) is a callback function which is executed when the connection is successful in this case. And , if any error then catch( ) function is executed.
-    app.listen(PORT , ()=>{
+    app.listen(PORT, '0.0.0.0' , ()=>{
         console.log("Server started at port no. "+PORT);
     });
     // exports.app = functions.https.onRequest(app);
